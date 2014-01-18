@@ -35,9 +35,6 @@ void keyboard(int key, int x, int y)
 void sphere :: upKeyPressed()
 {
    //upKeyPressed
-    SoTransform * trans0 = new SoTransform;
-    trans0->rotation.setValue(SbVec3f(0, 0, 1), 1.5707963f);
-    root->addChild(trans0);
 }
 
 void sphere :: downKeyPressed()
